@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/highscorebackground" >
+
+    <TextView
+        android:id="@+id/highscore_word"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/highscore_color"
+        android:layout_marginRight="63dp"
+        android:layout_marginTop="33dp"
+        android:gravity="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/highscore_color"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="29dp"
+        android:layout_marginTop="141dp"
+        android:gravity="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/highscore_shapes"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/highscore_color"
+        android:layout_below="@+id/highscore_word"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:textSize="30sp" />
+
+    <ImageButton
+        android:id="@+id/img_dominant"
+        android:layout_width="290dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:rotation="-16" />
+
+</RelativeLayout>

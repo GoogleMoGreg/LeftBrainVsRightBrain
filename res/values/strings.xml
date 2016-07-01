@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Left vs Right Brain</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Menu">PLAY NOW</string>
+    <string name="Menu_Color">Color MATCH </string>
+    <string name="Menu_Shape">Words MATCH </string>
+    <string name="Menu_Shapes">Shapes MATCH</string>
+    <string name="Btn_Text"> </string>
+     <string name="Text_Score"> 0</string>
+    
+
+</resources>

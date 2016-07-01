@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/colorbackground"
+    android:gravity="top"
+    android:orientation="vertical"
+     >
+
+    <ImageButton
+        android:id="@+id/img_iconhighscore"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/matchshapes" />
+
+    <ImageButton
+        android:id="@+id/wordbrain_2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignTop="@+id/lifebrain1"
+        android:layout_toRightOf="@+id/lifebrain1"
+        android:background="@drawable/brain" />
+
+    <ImageButton
+        android:id="@+id/wordbrain_3"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignTop="@+id/wordbrain_2"
+        android:layout_toRightOf="@+id/wordbrain_2"
+        android:background="@drawable/brain" />
+
+    <ImageButton
+        android:id="@+id/lifebrain1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/img_iconhighscore"
+        android:layout_toRightOf="@+id/imageButton2"
+        android:background="@drawable/brain" />
+
+    <Button
+        android:id="@+id/shapes_btn4"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/highscore_btn"
+        android:layout_below="@+id/highscore_btn"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/shapes_btn8"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/shapes_btn6"
+        android:layout_below="@+id/shapes_btn6"
+        android:layout_marginTop="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/shapes_btn9"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/shapes_btn7"
+        android:layout_below="@+id/shapes_btn7"
+        android:layout_marginTop="14dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/shapes_btn10"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/shapes_btn8"
+        android:layout_below="@+id/shapes_btn8"
+        android:layout_marginTop="18dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="45dp"
+        android:layout_height="20dp"
+        android:layout_above="@+id/highscore_btn"
+        android:layout_alignLeft="@+id/img_iconhighscore"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/lifeto" />
+
+    <Button
+        android:id="@+id/shapes_btn3"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_alignBaseline="@+id/shapes_btn4"
+        android:layout_alignBottom="@+id/shapes_btn4"
+        android:layout_alignLeft="@+id/shapes_btn1"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/shapes_btn1"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_alignBaseline="@+id/highscore_btn"
+        android:layout_alignBottom="@+id/highscore_btn"
+        android:layout_toLeftOf="@+id/wordbrain_3"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/shapes_btn7"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_alignBaseline="@+id/shapes_btn8"
+        android:layout_alignBottom="@+id/shapes_btn8"
+        android:layout_toLeftOf="@+id/wordbrain_3"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/shapes_btn5"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/img_error3"
+        android:layout_below="@+id/shapes_btn3"
+        android:layout_marginTop="22dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/highscore_btn"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_alignRight="@+id/img_error3"
+        android:layout_below="@+id/Score"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="22dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/shapes_btn6"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_alignBaseline="@+id/shapes_btn5"
+        android:layout_alignBottom="@+id/shapes_btn5"
+        android:layout_alignLeft="@+id/shapes_btn4"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/img_error3"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/shapes_btn1"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/error" />
+
+    <TextView
+        android:id="@+id/Score"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/wordbrain_3"
+        android:layout_alignRight="@+id/img_iconhighscore"
+        android:gravity="center"
+        android:textColor="#FFFFFFFF"
+        android:textSize="25sp" />
+
+    <ImageButton
+        android:id="@+id/ImageButton03"
+        android:layout_width="90dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/wordbrain_3"
+        android:layout_toLeftOf="@+id/Score"
+        android:background="@drawable/yougotto" />
+
+</RelativeLayout>
